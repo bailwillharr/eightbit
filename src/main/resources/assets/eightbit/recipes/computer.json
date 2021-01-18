@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"ICI",
+		"IRI"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"C": {
+			"item": "eightbit:cpu"
+		},
+		"R": {
+			"item": "minecraft:redstone_block"
+		}
+	},
+	"result": {
+		"item": "eightbit:computer"
+	}
+}

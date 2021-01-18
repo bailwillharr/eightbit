@@ -1,0 +1,16 @@
+[
+{
+  "modid": "eightbit",
+  "name": "8-Bit Computers",
+  "description": "Fully emulated 8-bit computers.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://baileyh.xyz/",
+  "updateUrl": "",
+  "authorList": ["Bailwillharr"],
+  "credits": "Bailwillharr",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

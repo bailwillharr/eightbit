@@ -1,0 +1,8 @@
+# Creative Tab
+itemGroup.eightbit=8-Bit Computers
+
+# Items
+item.eightbit.cpu.name=CPU
+
+# Blocks
+tile.eightbit.computer.name=Computer
