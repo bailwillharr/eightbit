@@ -7,4 +7,5 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 @ObjectHolder(EightBit.MODID)
 public class ModBlocks {
 	public static final Block COMPUTER = null;
+	public static final Block MONITOR = null;
 }

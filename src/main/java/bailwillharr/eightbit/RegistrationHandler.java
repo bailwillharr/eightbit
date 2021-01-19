@@ -19,7 +19,8 @@ public class RegistrationHandler {
 					.setCreativeTab(EightBit.EIGHTBIT_TAB)
 		};
 		final Item[] itemBlocks = {
-			new ItemBlock(ModBlocks.COMPUTER).setRegistryName(ModBlocks.COMPUTER.getRegistryName())	
+			new ItemBlock(ModBlocks.COMPUTER).setRegistryName(ModBlocks.COMPUTER.getRegistryName()),
+			new ItemBlock(ModBlocks.MONITOR).setRegistryName(ModBlocks.MONITOR.getRegistryName())
 		};
 		event.getRegistry().registerAll(items);
 		event.getRegistry().registerAll(itemBlocks);
@@ -37,7 +38,10 @@ public class RegistrationHandler {
 			setBlockName(new Block(Material.IRON), "computer")
 				.setCreativeTab(EightBit.EIGHTBIT_TAB)
 				.setHardness(1.5f)
-				.setLightLevel(1f)
+				.setLightLevel(1f),
+			setBlockName(new Block(Material.IRON), "monitor")
+				.setCreativeTab(EightBit.EIGHTBIT_TAB)
+				.setHardness(1.5f)
 		};
 		event.getRegistry().registerAll(blocks);
 	}

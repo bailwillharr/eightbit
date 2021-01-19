@@ -18,6 +18,7 @@ public class ModelRegistrationHandler {
 	public static void registerModels(ModelRegistryEvent event) {
 		registerModel(ModItems.CPU, 0);
 		registerModel(Item.getItemFromBlock(ModBlocks.COMPUTER), 0);
+		registerModel(Item.getItemFromBlock(ModBlocks.MONITOR), 0);
 	}
 	
 	private static void registerModel(Item item, int meta) {
