@@ -1,7 +1,7 @@
 package bailwillharr.eightbit.client;
 
 import bailwillharr.eightbit.EightBit;
-import bailwillharr.eightbit.init.ModBlocks;
+import bailwillharr.eightbit.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
@@ -12,6 +12,6 @@ public class EightBitTab extends CreativeTabs{
 	
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(ModBlocks.COMPUTER);
+		return new ItemStack(ModItems.CPU);
 	}
 }

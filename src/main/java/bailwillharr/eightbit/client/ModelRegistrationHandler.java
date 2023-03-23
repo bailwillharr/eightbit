@@ -22,7 +22,7 @@ public class ModelRegistrationHandler {
 	}
 	
 	private static void registerModel(Item item, int meta) {
-	ModelLoader.setCustomModelResourceLocation(item, meta,
+		ModelLoader.setCustomModelResourceLocation(item, meta,
 			new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
 	

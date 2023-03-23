@@ -37,11 +37,11 @@ public class RegistrationHandler {
 		final Block[] blocks = {
 			setBlockName(new Block(Material.IRON), "computer")
 				.setCreativeTab(EightBit.EIGHTBIT_TAB)
-				.setHardness(1.5f)
-				.setLightLevel(1f),
+				.setHardness(1.5f),
 			setBlockName(new Block(Material.IRON), "monitor")
 				.setCreativeTab(EightBit.EIGHTBIT_TAB)
 				.setHardness(1.5f)
+				.setLightLevel(1f)
 		};
 		event.getRegistry().registerAll(blocks);
 	}
